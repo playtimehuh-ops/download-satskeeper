@@ -4,5 +4,5 @@ class AppConfig {
   static const String apiBaseUrl = 'https://download-satskeeper.vercel.app/';
   
   // Example: 'my-super-secret-app-key-123'
-  static const String appKey = '@asdf1234flol67goatthisistolongidkylmao';
+  static const String appKey = 'asdf1234flol';
 }
