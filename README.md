@@ -1,4 +1,4 @@
-# SatsKeeper Mobile App (Flutter.)
+# SatsKeeper Mobile App (Flutter)
 
 This repo compiles a native Android APK and an unsigned iOS IPA entirely on GitHub Actions. No local Android Studio or Xcode required.
 
