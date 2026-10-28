@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SatsKeeper Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>SatsKeeper</h2>
+        <button onclick="showTab('overview')" class="active">Overview</button>
+        <button onclick="showTab('users')">Users</button>
+        <button onclick="showTab('redemptions')">Redemptions</button>
+    </div>
+    <div class="content">
+        <div id="overview" class="tab active"><h1>Economics</h1><div class="stats-grid" id="econ-stats"></div></div>
+        <div id="users" class="tab"><h1>Users</h1><table id="users-table"><thead><tr><th>Device ID</th><th>Opted In</th><th>Points</th><th>Streak</th></tr></thead><tbody></tbody></table></div>
+        <div id="redemptions" class="tab"><h1>Redemptions</h1><table id="redemptions-table"><thead><tr><th>ID</th><th>Device</th><th>Value</th><th>Status</th><th>Actions</th></tr></thead><tbody></tbody></table></div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
